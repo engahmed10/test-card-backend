@@ -3,8 +3,8 @@ class TestsController < ApplicationController
 
 
     def index
-        
-        test=Test.all
+
+        tests=Test.all
         render json: tests
 
     end
@@ -12,7 +12,7 @@ class TestsController < ApplicationController
 
     def create
        
-
+    
     end 
 
 
