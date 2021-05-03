@@ -22,6 +22,14 @@ class TestsController < ApplicationController
     end 
 
 
+    def  destroy 
+       
+        tset=Test.find(params[:id])
+        render json :test
+
+    end
+
+
  
    
 end
